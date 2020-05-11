@@ -14,18 +14,23 @@ struct OtherView: View {
     }
 }
 
-func greet(name2: String) {
-    let firstName = name2
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
-    print("Hola " + firstName)
+func vowelConsonants2(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
 }
 
 struct OtherView_Previews: PreviewProvider {
