@@ -204,6 +204,17 @@ func vowelConsonants11(_ input: String) -> (vowels: Int, consonants: Int) {
     return (vowelCount, consonantCount)
 }
 
+
+func vowelC1(_ str: String) -> (vowels: Int, consonants: Int) {
+    var numOfVow = 0
+    var numOfCon = 0
+    str.lowercased().forEach {
+        if  "bcdfghjklmnpqrstvwxyz".contains($0) { numOfCon += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+    }
+    return (numOfVow, numOfCon)
+}
+
 struct OtherView_Previews: PreviewProvider {
     static var previews: some View {
         OtherView()

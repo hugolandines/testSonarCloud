@@ -14,6 +14,16 @@ struct ContentView: View {
     }
 }
 
+func vowelC(_ str: String) -> (vowels: Int, consonants: Int) {
+    var numOfVow = 0
+    var numOfCon = 0
+    str.lowercased().forEach {
+        if  "bcdfghjklmnpqrstvwxyz".contains($0) { numOfCon += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+    }
+    return (numOfVow, numOfCon)
+}
+
 func vowelConsonants(_ input: String) -> (vowels: Int, consonants: Int) {
     let vowels = "aeiou"
     let consonants = "bcdfghjklmnpqrstvwxyz"
