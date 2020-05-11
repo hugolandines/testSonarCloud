@@ -24,6 +24,35 @@ func vowelC(_ str: String) -> (vowels: Int, consonants: Int) {
     return (numOfVow, numOfCon)
 }
 
+func isPrime2() {
+    let numbers = 1...100
+    for number in numbers {
+
+      //set the flag to true initially
+      var prime = true
+
+        for i in 1...5 {
+
+          //even division of a number thats not 1 or the number itself = not a prime number
+          if number % i == 0 {
+              prime = false
+              break
+          }
+      }
+
+      if prime == false {
+          print("\(number) is not prime.")
+
+      }  else {
+
+          print("\(number) is prime.")
+
+       }
+
+
+    }
+}
+
 func vowelConsonants(_ input: String) -> (vowels: Int, consonants: Int) {
     let vowels = "aeiou"
     let consonants = "bcdfghjklmnpqrstvwxyz"
