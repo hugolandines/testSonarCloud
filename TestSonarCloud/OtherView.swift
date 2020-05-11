@@ -240,6 +240,35 @@ func vowelC1(_ str: String) -> (vowels: Int, consonants: Int) {
     str.lowercased().forEach {
         if  "bcdfghjklmnpqrstvwxyz".contains($0) { numOfCon += 1 }
         else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
+        else if "aeiou".contains($0) { numOfVow += 1 }
     }
     return (numOfVow, numOfCon)
 }
