@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  OtherView.swift
 //  TestSonarCloud
 //
 //  Created by Hugo Landines on 5/11/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct OtherView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-func greet(name: String) {
-    let firstName = name
+func greet(name2: String) {
+    let firstName = name2
     print("Hola " + firstName)
     print("Hola " + firstName)
     print("Hola " + firstName)
@@ -28,8 +28,8 @@ func greet(name: String) {
     print("Hola " + firstName)
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OtherView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OtherView()
     }
 }
