@@ -33,6 +33,177 @@ func vowelConsonants2(_ input: String) -> (vowels: Int, consonants: Int) {
     return (vowelCount, consonantCount)
 }
 
+func vowelConsonants3(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants4(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants5(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants6(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants7(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants8(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants9(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants10(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
+func vowelConsonants11(_ input: String) -> (vowels: Int, consonants: Int) {
+    let vowels = "aeiou"
+    let consonants = "bcdfghjklmnpqrstvwxyz"
+    var vowelCount = 0
+    var consonantCount = 0
+
+    for letter in input.lowercased() {
+        if consonants.contains(letter) {
+            consonantCount += 1
+        } else {
+            // check again to weed out punctuations
+            if vowels.contains(letter) {
+                vowelCount += 1
+            }
+        }
+    }
+    return (vowelCount, consonantCount)
+}
+
 struct OtherView_Previews: PreviewProvider {
     static var previews: some View {
         OtherView()
